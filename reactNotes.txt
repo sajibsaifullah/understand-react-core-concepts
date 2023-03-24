@@ -1,0 +1,50 @@
+=> node & vite site
+=> npm: node package manager
+=> JSX--->syntactical sugar
+
+=>props--> unidirectional, read only property
+
+=>Hooks-->another name webhook
+
+=> stateful -> stateless/presentational
+        --> stateless component provides data
+        --> presentational component only show data, doesn't care data where comes from.
+
+=> difference between State & props [****]
+    State: 
+        - changeable (generally by an event)
+    Props:
+        - read only
+        - props rally
+
+=> What is React?
+    -> React JS: 
+            - JavaScript library
+            - fast & component-based library developed by facebook team.
+            - virtual DOM
+                - same as real DOM
+                - follow diff algorithm
+                - target specific
+                - fast from real DOM
+
+=> React vs Angular vs Vue
+    - react unidirectional
+    - angular two dimensional/ bi-directional
+    - 
+=> React functional component lifecycle methods
+    1. Mounting
+    - useState and useEffect are called during the mounting phase.
+    - useState sets the initial state of the component.
+    - useEffect is used to perform any side effects after the component has mounted.
+
+    2. Updating
+    - Whenever the component state or props change, the component re-renders.
+    - During the updating phase, useEffect is called again.
+    - Any changes to the state or props can be handled here.
+
+    3. Unmounting
+    - When the component is removed from the DOM, useEffect can be used for cleanup operations.
+    - The cleanup function is called right before the component is unmounted.
+
+    **Note: The lifecycle diagram above applies to functional components that use hooks. Without hooks, the lifecycle is simpler and does not have a separate phase for useEffect.**
+
